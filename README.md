@@ -33,8 +33,9 @@ The output of this steps is a tidy dataset called data_set1.txt
 
 5) Creates independent  second tidy data set  called data_set2.txt from previous data_set1.txt with the average of each variable for each activity and each subject. This file can be found in this repository.
 
-Note: The scripts takes the [original dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-downloads it and then unzips it. As a result data.zip file and /UCI HAR Dataset/ are created in the working directory.
+Note: Please download  [original dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+and  unzip it. 
+Make sure /UCI HAR Dataset/ directory - which contains all the data sets is placed in the working directory ( where the run_analysis.R is placed )
 
 
 ###Usage

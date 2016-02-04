@@ -99,7 +99,7 @@ second_data_set <- function() {
   
   d <-ddply(d1,.(subject,activity), numcolwise(mean))
   
-  write.table(d, file="../data_set2.txt")
+  write.table(d, file="../data_set2.txt",row.names = F)
   print("Data set was created: data_set2.txt")
   
 }
@@ -109,10 +109,8 @@ second_data_set <- function() {
 # Script
 #########
 
-setwd('F:\\MA_Statistics\\Coursera\\Getting_Cleaning_Data\\Quizes\\week4\\getdata-projectfiles-UCI HAR Dataset\\GettingandCleaningData')
-fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(fileUrl, destfile = "data.zip")
-unzip("data.zip")
+
+
 setwd('UCI HAR Dataset/')
 
 first_data_set()
